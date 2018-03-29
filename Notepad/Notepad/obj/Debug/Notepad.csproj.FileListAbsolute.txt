@@ -1,0 +1,10 @@
+D:\Git\C#\Notepad\Notepad\bin\Debug\Notepad.exe.config
+D:\Git\C#\Notepad\Notepad\bin\Debug\Notepad.exe
+D:\Git\C#\Notepad\Notepad\bin\Debug\Notepad.pdb
+D:\Git\C#\Notepad\Notepad\obj\Debug\Notepad.csprojResolveAssemblyReference.cache
+D:\Git\C#\Notepad\Notepad\obj\Debug\Notepad.Form1.resources
+D:\Git\C#\Notepad\Notepad\obj\Debug\Notepad.Properties.Resources.resources
+D:\Git\C#\Notepad\Notepad\obj\Debug\Notepad.csproj.GenerateResource.Cache
+D:\Git\C#\Notepad\Notepad\obj\Debug\Notepad.csproj.CoreCompileInputs.cache
+D:\Git\C#\Notepad\Notepad\obj\Debug\Notepad.exe
+D:\Git\C#\Notepad\Notepad\obj\Debug\Notepad.pdb
