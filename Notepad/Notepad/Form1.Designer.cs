@@ -38,8 +38,9 @@
             this.видToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.miLight = new System.Windows.Forms.ToolStripMenuItem();
             this.miDark = new System.Windows.Forms.ToolStripMenuItem();
-            this.rtb_Text = new System.Windows.Forms.RichTextBox();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.rtb_Text = new System.Windows.Forms.RichTextBox();
+            this.вставитьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -60,6 +61,7 @@
             this.файлToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.miNew,
             this.miOpen,
+            this.вставитьToolStripMenuItem,
             this.miSave,
             this.miSaveAs});
             this.файлToolStripMenuItem.Name = "файлToolStripMenuItem";
@@ -122,6 +124,13 @@
             this.miDark.Text = "Темный";
             this.miDark.Click += new System.EventHandler(this.miDark_Click);
             // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(65, 20);
+            this.toolStripMenuItem1.Text = "Справка";
+            this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
+            // 
             // rtb_Text
             // 
             this.rtb_Text.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -134,12 +143,13 @@
             this.rtb_Text.TabIndex = 1;
             this.rtb_Text.Text = "";
             // 
-            // toolStripMenuItem1
+            // вставитьToolStripMenuItem
             // 
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(65, 20);
-            this.toolStripMenuItem1.Text = "Справка";
-            this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
+            this.вставитьToolStripMenuItem.Name = "вставитьToolStripMenuItem";
+            this.вставитьToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.V)));
+            this.вставитьToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.вставитьToolStripMenuItem.Text = "Вставить";
+            this.вставитьToolStripMenuItem.Click += new System.EventHandler(this.вставитьToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -172,6 +182,7 @@
         private System.Windows.Forms.ToolStripMenuItem miDark;
         private System.Windows.Forms.RichTextBox rtb_Text;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem вставитьToolStripMenuItem;
     }
 }
 

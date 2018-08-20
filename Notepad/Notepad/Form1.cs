@@ -13,6 +13,7 @@ namespace Notepad
     public partial class Form1 : Form
     {
         Text_Value txt;
+        int dark_light_select = 0;
 
         public Form1()
         {
@@ -20,18 +21,21 @@ namespace Notepad
 
             rtb_Text.BackColor = Color.Black;
             rtb_Text.ForeColor = Color.White;
+            dark_light_select = 0;
         }
 
         private void miDark_Click(object sender, EventArgs e)
         {
             rtb_Text.BackColor = Color.Black;
             rtb_Text.ForeColor = Color.White;
+            dark_light_select = 0;
         }
 
         private void miLight_Click(object sender, EventArgs e)
         {
             rtb_Text.BackColor = Color.White;
             rtb_Text.ForeColor = Color.Black;
+            dark_light_select = 1;
         }
 
         private void miNew_Click(object sender, EventArgs e)
@@ -168,6 +172,15 @@ namespace Notepad
         private void toolStripMenuItem1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("mail@sagitov.pro", "Справка", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        /// <summary>
+        /// Вставка в формате текста внутри RichTextBox
+        /// </summary>
+        private void вставитьToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DataFormats.Format myFormat = DataFormats.GetFormat(DataFormats.Text);
+            rtb_Text.Paste(myFormat);
         }
     }
 }
